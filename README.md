@@ -21,7 +21,8 @@ velocity,filtered,standerd deviation
 You can contact me at cangye@hotmail.com
 
 ### Citation
-A Framework for Uncertainty Estimation in Seismology Data Processing with Application to Extract Rayleigh Wave Dispersion Curves from Noise Cross-correlation Functions
+Ziye Yu, Liu Xin. 2025. A Framework for Uncertainty Estimation in Seismology Data Processing with Application to Extract Rayleigh Wave Dispersion Curves from Noise Cross-correlation Functions. 
+https://doi.org/10.48550/arXiv.2503.20460
 
 ### License
 GPLv3
