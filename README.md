@@ -11,10 +11,9 @@ You can run makepicker.py to make the infer model for process single data.
 The extract_demo.py is used to extract dispersion curves from the infer model. 
 The output format can be :
 ```text
-velocity,filtered,standerd deviation
-2.9718,False,0.0431
-2.9859,False,0.0426
-3.0122,False,0.0433
+period[s],velocity[km/s],filtered[if filtered by DNN],standerd deviation
+3.0000,2.9621,False,0.0471
+4.0000,2.9753,False,0.0484
 ```
 
 ### Contact 

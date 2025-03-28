@@ -23,6 +23,7 @@ y1 = np.mean(y1s, axis=0)
 y2 = np.mean(y2s, axis=0) 
 e1 = np.std(y1s, axis=0)
 e2 = np.std(y2s, axis=0)
-ofile.write("velocity,filtered,standerd deviation\n")
-for a, b, c in zip(y1, y2, e1):
-    ofile.write("{:.4f},{},{:.4f}\n".format(a, b>0.5, c))
+ofile.write("period[s],velocity[km/s],filtered[if filtered by DNN],standerd deviation\n")
+period = np.arange(48) + 3 
+for a, b, c, p in zip(y1, y2, e1, period):
+    ofile.write("{:.4f},{:.4f},{},{:.4f}\n".format(p, a, b>0.5, c))
